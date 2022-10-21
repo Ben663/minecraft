@@ -1,0 +1,17 @@
+@media(max-width: 500px){
+    #game-grid {
+        grid-template-rows: repeat(20,1fr);
+        grid-template-columns: repeat(10,1fr);
+    }
+    #menu {
+        height: 15vh;
+    }
+}
+
+@media (max-width: 850px) and (min-width: 500px) {
+    #game-grid {
+        height: 70vh;
+        grid-template-columns: repeat(10,1fr);
+    }
+    
+}
